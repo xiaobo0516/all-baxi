@@ -110,6 +110,8 @@ export default {
 
     // 设置缓存：浏览器 30 天，边缘缓存 30 天
     response.headers.set("Cache-Control", "public, max-age=2592000, s-maxage=2592000");
+
+    // 仅 GET 请求写缓存，异步写入（不会阻塞响应）
     if (request.method === "GET") {
       ctx.waitUntil(cache.put(cacheKey, response.clone()));
     }
