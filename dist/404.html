@@ -1,0 +1,214 @@
+<!doctype html>
+<html amp lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>404 — Page Not Found</title>
+  <link rel="canonical" href="/" />
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <meta name="description" content="The page you are looking for cannot be found. Return to the homepage or search for what you need.">
+  <meta name="keywords" content="404, page not found, error">
+  <link rel="icon" href="/favicon.ico">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <style amp-boilerplate>
+    body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
+    -moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
+    -ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
+    animation:-amp-start 8s steps(1,end) 0s 1 normal both}
+    @-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+    @-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+    @-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+    @-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+    @keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+  </style>
+  <noscript>
+    <style amp-boilerplate>
+      body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}
+    </style>
+  </noscript>
+
+  <style amp-custom>
+    :root{
+      --primary-color:#0b6fb2;
+      --accent-color:#ff6b35;
+      --muted:#6b7280;
+      --bg:#ffffff;
+      --card:#f7fafc;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background:var(--bg);
+      color:#0b1a2b;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+    header{
+      background:var(--primary-color);
+      color:#fff;
+      text-align:center;
+      padding:36px 16px;
+    }
+    header h1{margin:0;font-size:28px;letter-spacing:0.2px}
+    header p{margin:8px 0 0;font-size:14px;opacity:0.95}
+    nav{
+      display:flex;
+      justify-content:center;
+      gap:14px;
+      padding:12px 0;
+      background:#f3f6f9;
+    }
+    nav a{
+      color:var(--primary-color);
+      text-decoration:none;
+      font-weight:600;
+      font-size:14px;
+    }
+    .container{
+      max-width:920px;
+      margin:28px auto;
+      padding:0 16px;
+    }
+    .hero{
+      display:flex;
+      gap:28px;
+      align-items:center;
+      background:var(--card);
+      padding:28px;
+      border-radius:12px;
+      border:1px solid #e6eef8;
+    }
+    .hero-left{
+      flex:1 1 360px;
+    }
+    .code{
+      font-size:96px;
+      line-height:1;
+      font-weight:800;
+      color:var(--primary-color);
+    }
+    .hero-title{
+      font-size:22px;
+      margin:6px 0 8px;
+      color:#072033;
+    }
+    .hero-desc{
+      color:var(--muted);
+      margin:0 0 16px;
+      font-size:15px;
+    }
+    .actions{
+      margin-top:8px;
+    }
+    .btn{
+      display:inline-block;
+      padding:12px 18px;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:700;
+      margin-right:10px;
+    }
+    .btn-primary{
+      background:var(--primary-color);
+      color:#fff;
+    }
+    .btn-outline{
+      background:transparent;
+      border:1px solid #d5e7fb;
+      color:var(--primary-color);
+    }
+    .hero-right{
+      width:260px;
+      flex:0 0 260px;
+      text-align:center;
+    }
+    .illustration{
+      width:180px;
+      height:180px;
+      margin:0 auto;
+      display:inline-block;
+    }
+    .info{
+      margin-top:18px;
+      color:var(--muted);
+      font-size:14px;
+      text-align:center;
+    }
+    footer{
+      text-align:center;
+      padding:20px;
+      color:var(--muted);
+      font-size:13px;
+      margin-top:18px;
+    }
+    @media (max-width:720px){
+      .hero{flex-direction:column;align-items:center;text-align:center}
+      .hero-right{width:160px;flex:0 0 160px}
+      .code{font-size:72px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Page Not Found</h1>
+    <p>We couldn't find the page you were looking for.</p>
+  </header>
+
+  <nav>
+    <a href="/">Home</a>
+    <a href="/sitemap.xml" rel="noopener">Sitemap</a>
+  </nav>
+
+  <main class="container" role="main">
+    <section class="hero" aria-labelledby="error-title">
+      <div class="hero-left">
+        <div class="code" aria-hidden="true">404</div>
+        <h2 id="error-title" class="hero-title">Sorry — that page doesn't exist</h2>
+        <p class="hero-desc">
+          The link may be broken, the page may have been removed, or the address might be incorrect.
+          Try returning to the homepage or use the links below.
+        </p>
+
+        <div class="actions" aria-label="primary actions">
+          <a class="btn btn-primary" href="/">Go to Homepage</a>
+        </div>
+      </div>
+
+      <div class="hero-right" aria-hidden="false">
+        <!-- SVG illustration embedded to avoid external image files -->
+        <div class="illustration" role="img" aria-label="magnifying glass searching for page">
+          <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+            <rect x="6" y="6" width="108" height="108" rx="12" fill="#eef6fb"/>
+            <g transform="translate(12,12)">
+              <circle cx="42" cy="34" r="22" fill="#ffffff" stroke="#bfe1fb" stroke-width="4"/>
+              <circle cx="42" cy="34" r="12" fill="#dff4ff"/>
+              <rect x="70" y="70" width="28" height="8" rx="4" transform="rotate(40 84 74)" fill="#bfe1fb"/>
+              <text x="20" y="102" font-size="14" fill="#9abbd8" font-family="Arial, sans-serif">Page not found</text>
+            </g>
+          </svg>
+        </div>
+
+        <p class="info">If you think this is a mistake, please let us know.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year">2025</span> — All rights reserved.</p>
+    <script type="application/javascript">
+      // keep year up to date for static pages
+      (function(){try{var y=new Date().getFullYear();document.getElementById('year').textContent=y;}catch(e){}})();
+    </script>
+  </footer>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "404 — Page Not Found",
+    "url": "/",
+    "description": "404 page not found."
+  }
+  </script>
+</body>
+</html>

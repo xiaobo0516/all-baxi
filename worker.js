@@ -73,13 +73,8 @@ export default {
       content = paragraphs;
     }
     
-    // 重写请求路径，加上域名作为目录前缀
-    const newPath = `/${rootDomain}${url.pathname}`;
-    const newUrl = new URL(newPath, request.url);
-    const newRequest = new Request(newUrl, request);
-
     // 从静态目录取文件
-    const asset = await env.ASSETS.fetch(newRequest);
+    const asset = await env.ASSETS.fetch(request);
     const replacements = {
       "{关键词}": keyword,
       "{域名}": domain,
