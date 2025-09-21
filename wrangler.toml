@@ -1,0 +1,27 @@
+name = "all-baxi"
+compatibility_date = "2025-09-21"
+main = "worker.js"
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+not_found_handling = "404-page"
+run_worker_first = [
+  "/",
+  "/robots.txt",
+  "/sitemap.xml",
+  "/google59908a378b7b0df5.html"
+]
+html_handling = "force-trailing-slash"
+
+[[d1_databases]]
+binding = "D1BAXI"
+database_name = "india"
+database_id = "9ba306ae-c9d0-406a-bf73-5deb5b9aed5c"
+
+[observability.logs]
+enabled = true
+
+
+
+
