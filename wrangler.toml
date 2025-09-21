@@ -10,7 +10,12 @@ run_worker_first = [
   "/",
   "/robots.txt",
   "/sitemap.xml",
-  "/google59908a378b7b0df5.html"
+  "/google59908a378b7b0df5.html",
+  "/blog/",
+  "/about-us/",
+  "/contact-us/",
+  "/privacy-policy/",
+  "/disclaimer/"
 ]
 html_handling = "force-trailing-slash"
 
