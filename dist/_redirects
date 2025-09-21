@@ -5,3 +5,5 @@
 /contact-us /contact-us/ 301
 /privacy-policy /privacy-policy/ 301
 /disclaimer /disclaimer/ 301
+
+/*.html /:splat/ 301
