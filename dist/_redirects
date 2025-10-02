@@ -1,0 +1,13 @@
+# 首页
+/ https://fastwin.it.com/ 301
+/index.html https://fastwin.it.com/ 301
+
+# 特殊页面（优先匹配）
+/blog https://fastwin.it.com/blog/ 301
+/faq https://fastwin.it.com/faq/ 301
+/about-us https://fastwin.it.com/about-us/ 301
+/privacy-policy https://fastwin.it.com/privacy-policy/ 301
+/contact-us https://fastwin.it.com/contact-us/ 301
+/disclaimer https://fastwin.it.com/disclaimer/ 301
+
+/*.html /:splat/ 301
