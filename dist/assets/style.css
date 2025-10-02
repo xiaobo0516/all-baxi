@@ -1,0 +1,144 @@
+/*
+Theme Name: game
+Theme URI: http://example.com
+Author: aheng
+Author URI: http://example.com
+Description: GNU General Public License v2 or later
+Version: 1.0
+License: GNU General Public License v2 or later
+*/
+
+html, body {
+  margin: 0;
+  overflow-x: hidden;
+}
+.btn-custom-login {
+  background: linear-gradient(45deg, #4facfe, #00f2fe);
+  border: none;
+  color: white !important;
+  font-weight: bold;
+  padding: 12px 28px;
+  border-radius: 30px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn-custom-login:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  text-decoration: none;
+}
+
+.btn-custom-register {
+  background: linear-gradient(45deg, #43e97b, #38f9d7);
+  border: none;
+  color: white !important;
+  font-weight: bold;
+  padding: 12px 28px;
+  border-radius: 30px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn-custom-register:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  text-decoration: none;
+}
+
+.carousel-caption {
+  bottom: 20%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+.game-circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 6px solid white;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+.game-circle:hover {
+  transform: scale(1.05);
+}
+.game-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-prev, .swiper-button-next {
+  color: white;
+}
+
+.casino-card {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+.casino-card:hover {
+  transform: translateY(-5px);
+}
+.casino-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.star-rating {
+  color: #ffc107;
+}
+.footer {
+  background: rgba(0, 0, 0, 0.8);
+  color: #ccc;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-menu li {
+  display: inline;
+  margin-right: 10px;
+}
+.footer-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 8px;
+}
+
+.last-section {
+  background: #0f0c29 url('images/AdobeStock_635374045.jpg') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+
+div.swiper-slide-active{
+margin-left: 45px;
+margin-right: 0px !important;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+color:#fff;
+}
+/* media Query */
+@media only screen and (max-width: 600px) {
+  /* .carousel, .carousel-item, .carousel-item img {
+  height: 350px;
+  } */
+  .row-reverse{
+  flex-direction: column-reverse;
+  }
+}
+

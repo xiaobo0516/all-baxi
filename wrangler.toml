@@ -12,6 +12,7 @@ run_worker_first = [
   "/sitemap.xml",
   "/google59908a378b7b0df5.html",
   "/blog/",
+  "/faq/",
   "/about-us/",
   "/contact-us/",
   "/privacy-policy/",
